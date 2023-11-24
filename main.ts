@@ -3,7 +3,7 @@ import { startStandaloneServer } from "@apollo/server/standalone";
 import { GraphQLError } from "graphql";
 
 import mongoose from "npm:mongoose@7.6.3";
-import PetModel from "../clase24_11/db/mascotas.ts";
+import PetModel from "./db/mascotas.ts";
 import { load } from "https://deno.land/std@0.204.0/dotenv/mod.ts";
 import { Pet } from "./type.ts";
 
